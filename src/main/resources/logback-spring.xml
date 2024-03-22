@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%thread] %-5level: %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
+
+
+
+
+
+
+
+
+<!--  este archivo de configuración se encarga de enviar logs con un nivel de severidad de "info" o
+      superior a la consola, con un formato específico definido por el patrón en el encoder -->
